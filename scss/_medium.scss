@@ -1,0 +1,9 @@
+/* Main */
+div#inventoryWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main div section {
+    margin: .5rem;
+}
