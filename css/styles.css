@@ -58,7 +58,7 @@ nav ul li a {
   padding: 0.5rem;
 }
 
-nav ul li ion-icon {
+nav ul li i {
   font-size: 36px;
   width: 100%;
   display: block;
@@ -90,25 +90,22 @@ div#inventoryWrapper {
   margin-bottom: 100px;
 }
 
-main figure {
+figure {
   position: relative;
   margin: 0;
 }
-
-main figcaption {
+figure img {
+  width: 100%;
+}
+figure figcaption {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 0.5rem;
+  padding: 0.5rem 2vw;
   margin-bottom: 0.4rem;
   font-weight: 500;
-}
-
-main figure img {
-  width: 100%;
-  height: auto;
 }
 
 main div {
@@ -116,7 +113,7 @@ main div {
   grid-template-columns: 1fr 1fr;
 }
 
-main div span ion-icon {
+main div span i {
   float: left;
   font-size: 1.5rem;
   padding: 0.5rem;
